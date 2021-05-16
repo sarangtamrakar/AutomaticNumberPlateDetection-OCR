@@ -1,0 +1,13 @@
+Entered into Prediction method of graph_classEntered into run_image_through_loaded_model method of graph_classException Occured in run_image_through_loaded_model of graph_classException :  Error while reading resource variable conv2d/kernel_12177 from Container: localhost. This could mean that the variable was uninitialized. Not found: Resource localhost/conv2d/kernel_12177/class tensorflow::Var does not exist.
+	 [[{{node StatefulPartitionedCall/functional_1/conv2d/Conv2D/ReadVariableOp}}]] [Op:__inference_signature_wrapper_1524]
+
+Function call stack:
+signature_wrapper
+Entered into Prediction method of graph_classEntered into run_image_through_loaded_model method of graph_classException Occured in run_image_through_loaded_model of graph_class
+Exception :  Error while reading resource variable batch_normalization_6/moving_mean_12309 from Container: localhost. This could mean that the variable was uninitialized. Not found: Resource localhost/batch_normalization_6/moving_mean_12309/class tensorflow::Var does not exist.
+	 [[{{node StatefulPartitionedCall/functional_1/batch_normalization_6/FusedBatchNormV3/ReadVariableOp}}]] [Op:__inference_signature_wrapper_1524]
+
+Function call stack:
+signature_wrapper
+Entered into Prediction method of graph_classEntered into run_image_through_loaded_model method of graph_classwe got boxes,scores,classes,num_of_detection 
+we have exited the run_image_through_loaded_model of graph_class 
